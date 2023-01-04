@@ -1,0 +1,210 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+
+p {
+	color: white;
+	font-size: 18px;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+
+img {
+	border-radius: 10px;
+	margin: 5px;
+}
+
+ol {
+	margin-left: 75px;
+}
+
+li {
+	color: white;
+	font-size: 18px;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+
+.center {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.justify {
+	text-align: justify;
+	text-indent: 5em;
+}
+
+#Accueil1 {
+	color: red;
+	font-size: 3em;
+}
+
+#Accueil2 {
+	color: white;
+	font-size: 1.5em;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    bottom: 45px;
+	right: 40px;
+	display: flex;
+	position: absolute  ;
+	align-items: flex-start;
+    justify-content: flex-start;
+	transition: transform 0.3s;
+}
+
+#Accueil2:hover {
+	color: red;
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+	bottom: 45px;
+	Right: 40px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+    justify-content: flex-start;
+	transform: scale(1.15);
+}
+
+#animation {
+	color: white;
+	font-size: 1.5em;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    top: 45px;
+	left: 40px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+    justify-content: flex-start;
+	transition: transform 0.3s;
+}
+
+#animation:hover {
+	color: red;
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+	top: 45px;
+	left: 40px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+    justify-content: flex-start;
+	transform: scale(1.15);
+}
+
+#date1 {
+	color: white;
+	font-size: 18px;
+	text-decoration: underline;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+	margin-bottom: -15px;
+}
+
+#date2 {
+	color: white;
+	font-size: 16px;
+	text-indent: 5em;
+	text-align: justify;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+	margin-bottom: 15px;
+}
+
+#signature {
+	color: white;
+	font-size: 1.5em;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    bottom: -350px;
+	right: 20px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+#button {
+	transition: transform 0.2s;
+	background-color: #03224c;
+	margin: 15px;
+	border: 2px solid;
+	border-color: white;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: Consolas, monaco, monospace;
+	font-size: 20px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+#button:hover {
+	transform: scale(1.2);
+	background-color: #03224c;
+	border: 2px solid;
+	border-color: white;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+	color: red;
+	text-align: center;
+	text-decoration: none;
+	font-family: Consolas, monaco, monospace;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+#image1 {
+	border-radius: 10px;
+	margin: 5px;
+	height: 450px;
+	transition: transform 0.2s;
+}
+
+#image1:hover {
+	border-radius: 10px;
+	margin: 5px;
+	transform: scale(1.2);
+}
+
+#image2 {
+	border-radius: 10px;
+	margin: 5px;
+	height: 370px;
+	transition: transform 0.2s;
+}
+
+#image2:hover {
+	border-radius: 10px;
+	margin: 5px;
+	transform: scale(1.2);
+}
